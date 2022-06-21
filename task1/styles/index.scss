@@ -5,27 +5,27 @@
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
+@import 'inbox.scss';
+@import 'features-mobile.scss';
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Work Sans';
 }
 
 .page {
-    width: 1400px;
-    margin: auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-.action__button {
-    height: 48px;
-    width: 160px;
-    background-color: #3040C4;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 2px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+@media screen and (min-width: 1399px) {
+    .page {
+        width: 1400px;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 }

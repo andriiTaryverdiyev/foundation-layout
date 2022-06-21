@@ -4,16 +4,86 @@
 }
 
 .header {
-    width: 1140px;
-    height: 62px;
-    margin: auto;
+    height: 64px;
+    width: 100%;
+    background-color: #FFFFFF;
     display: flex;
+    padding-left: 15px;
+    align-items: center;
+    max-width: 100%;
+}
+
+.header__menu-button {
+    width: 58px;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: auto;
+    background: transparent;
+    height: 100%;
+    padding: 0;
+}
+
+.header__menu-icon {
+    width: 18px;
+    height: 13px;
+    background-image: url('img/Shape.png');
+    display: inline-block;
 }
 
 .navigation {
-    margin-top: 7px;
-    margin-left: 335px;
-    margin-right: 75px;
+    display: none;
+}
+
+.header__button {
+    display: none;
+}
+
+@media screen and (min-width:1400px) {
+    .top-section {
+        background-color: #F3C6BD;
+        padding-top: 39px;
+    }
+    .navigation {
+        display: block;
+        margin-top: 7px;
+        margin-left: 335px;
+        margin-right: 75px;
+    }
+    .header {
+        width: 1140px;
+        height: 62px;
+        margin: auto;
+        display: flex;
+        background-color: #F3C6BD;
+    }
+    .header__button {
+        display: block;
+    }
+    .logo__description {
+        margin-left: 15px;
+        line-height: 25px;
+        font-size: 18px;
+        color: #2B292D;
+    }
+    .header__button {
+        display: block;
+    }
+    .logo__name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        color: #2B292D;
+    }
+    .logo__image {
+        margin-right: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .header__menu-button {
+        display: none;
+    }
 }
 
 .navigation__item {
@@ -42,29 +112,39 @@
 
 .logo {
     display: flex;
+    align-items: center;
 }
 
 .logo__image {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
+    margin-right: 13px;
 }
 
 .logo__name {
-    margin-left: 15px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 60px;
     color: #2B292D;
 }
 
 .logo__description {
-    margin-left: 15px;
-    line-height: 25px;
-    font-size: 18px;
-    color: #2B292D;
+    display: none;
 }
 
 .top-section {
     background-color: #F3C6BD;
-    padding-top: 39px;
+}
+
+.action__button {
+    height: 48px;
+    width: 160px;
+    background-color: #3040C4;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
