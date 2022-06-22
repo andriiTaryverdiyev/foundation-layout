@@ -1,0 +1,135 @@
+.audience {
+    display: flex;
+    flex-direction: column;
+    background-color: #00A1C612;
+    padding: 50px 15px;
+}
+
+.audience__top-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-column__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    margin: 0px;
+}
+
+.top-column__title {
+    margin: 0px;
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    color: #2B292D;
+}
+
+.top-column__description {
+    margin-top: 18px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.user-card:hover {
+    background-color: #3141C5;
+    cursor: pointer;
+}
+
+.user-card__container {
+    margin-top: 40px;
+    display: block;
+}
+
+.user-card:last-child {
+    margin-bottom: 0;
+}
+
+.user-card__developers {
+    padding: 22px 76px;
+}
+
+.user-card__entertainment {
+    padding: 22px 74px;
+}
+
+.user-card__athletes {
+    padding: 22px 65px;
+}
+
+.user-card__creators {
+    padding: 22px 100px 22px 71px;
+}
+
+.user-card__text {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 33px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B292D;
+}
+
+.user-card__text-biased {
+    padding-left: 25px;
+    padding-right: 53px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #2B292D;
+    padding-bottom: 33px;
+}
+
+@media screen and (min-width:1400px) {
+    .user-card {
+        width: 262px;
+        height: 300px;
+        margin-left: 30px;
+    }
+    .user-card__container {
+        margin-top: 0;
+        display: flex;
+        padding: 111px 131px 0px 130px;
+    }
+    .audience__top-column {
+        display: block;
+        padding: 108px 423px 0px 422px;
+    }
+    .top-column__title {
+        margin-top: 24px;
+    }
+    .top-column__description {
+        margin-top: 30px;
+        margin-bottom: 34px;
+    }
+    .audience__button-container {
+        display: flex;
+        margin: 0px 536px;
+    }
+    .headline__buttons-btn {
+        padding: 0px;
+    }
+}

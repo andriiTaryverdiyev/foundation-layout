@@ -8,6 +8,7 @@
 @import 'inbox.scss';
 @import 'features-mobile.scss';
 @import 'communication.scss';
+@import 'audience.scss';
 * {
     box-sizing: border-box;
 }
@@ -28,5 +29,14 @@ body {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+    }
+    .hide_desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .hide_mobile {
+        display: none;
     }
 }
