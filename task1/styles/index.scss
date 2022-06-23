@@ -1,3 +1,4 @@
+@import 'breakpoints.scss';
 @import 'header.scss';
 @import 'variables.scss';
 @import 'footer.scss';
@@ -9,6 +10,7 @@
 @import 'features-mobile.scss';
 @import 'communication.scss';
 @import 'audience.scss';
+@import 'feedback.scss';
 * {
     box-sizing: border-box;
 }
@@ -30,13 +32,16 @@ body {
         display: flex;
         flex-direction: column;
     }
-    .hide_desktop {
+}
+
+.hide_desktop {
+    @include for-large-up {
         display: none;
     }
 }
 
-@media screen and (max-width: 1400px) {
-    .hide_mobile {
+.hide_mobile {
+    @include for-large-down {
         display: none;
     }
 }
