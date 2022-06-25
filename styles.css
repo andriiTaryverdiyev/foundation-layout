@@ -1588,13 +1588,13 @@
     width: 269px;
     height: 296px;
     margin-right: 121px;
+    margin-left: 0px;
   }
 }
 .order__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  text-align: center;
   letter-spacing: -0.25px;
   margin-top: 40px;
 }
