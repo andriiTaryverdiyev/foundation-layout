@@ -1137,7 +1137,6 @@
   margin-bottom: 15px;
 }
 .user-card:hover {
-  background-color: #3141C5;
   cursor: pointer;
 }
 .user-card:hover .user-card__text {
