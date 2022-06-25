@@ -1063,6 +1063,11 @@
   align-items: center;
 }
 
+.audience-button {
+  margin-top: 12px;
+  padding: 0;
+}
+
 .top-column__subtitle {
   font-weight: 700;
   font-size: 22px;
