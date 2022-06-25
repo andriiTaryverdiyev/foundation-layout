@@ -51,6 +51,7 @@
 
 @media screen and (min-width:1400px) {
     .headline__content {
+        margin: 0;
         position: absolute;
         z-index: 1;
     }
@@ -63,6 +64,7 @@
         padding-bottom: 77px;
     }
     .headline__title {
+        margin: 0;
         width: 754px;
         height: 165px;
         font-weight: bold;

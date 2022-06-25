@@ -41,6 +41,7 @@
     line-height: 25px;
     font-size: 18px;
     margin-right: 50px;
+    color: #2B292D;
 }
 
 .navigation__item_selected {
@@ -105,9 +106,10 @@
     }
     .navigation {
         display: block;
+        width: 292px;
         margin-top: 7px;
         margin-left: 335px;
-        margin-right: 75px;
+        margin-right: 56px;
     }
     .header {
         width: 1140px;
@@ -143,5 +145,8 @@
     }
     .header__menu-button {
         display: none;
+    }
+    .navigation__arrow {
+        margin-left: 11px;
     }
 }
