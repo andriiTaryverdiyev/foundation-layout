@@ -22,6 +22,7 @@
 .audience-button {
     margin-top: 12px;
     padding: 0;
+    color: #2B292D;
     @include for-large-up {
         margin-top: 0px;
         width: 158px;
@@ -97,7 +98,7 @@
         @include for-large-up {
             margin-top: 0;
             display: flex;
-            padding: 111px 116px 0px 115px;
+            padding: 80px 116px 0px 115px;
         }
     }
     &__developers {
