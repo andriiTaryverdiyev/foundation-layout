@@ -1,0 +1,212 @@
+.hiring {
+    padding: 0;
+    display: block;
+    padding: 50px 15px 35px 15px;
+}
+
+.hiring-title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+}
+
+.hiring-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.jobs__mobile {
+    display: block;
+    margin-top: 39px;
+}
+
+.jobs__desktop {
+    display: none;
+}
+
+.mobile__container {
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 8px;
+    display: flex;
+    height: 140px;
+    width: 290px;
+    margin-bottom: 15px;
+}
+
+.mobile__container-details {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.mobile-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2B292D;
+    margin: 19px 21px 0px 20px;
+    width: 199px;
+    height: 69px;
+}
+
+.mobile-location {
+    margin: 7px 21px 19px 20px;
+    width: 199px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2B292D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.mobile-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D5D4D5;
+    width: 50px;
+    margin-left: 26px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.mobile-icon {
+    max-width: 7px;
+    max-height: 12px;
+    margin: 64px 22px 64px 21px;
+}
+
+.hiring-button {
+    padding: 0;
+    height: 48px;
+    width: 160px;
+    background-color: #3040C4;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.desktop-button {
+    display: none;
+}
+
+.mobile-button {
+    display: block;
+}
+
+@media screen and (min-width:1400px) {
+    .jobs__desktop {
+        display: flex;
+    }
+    .jobs__mobile {
+        display: none;
+    }
+    .hiring {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        padding-top: 106px;
+    }
+    .hiring-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        color: #2B292D;
+    }
+    .hiring-description {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        color: #2B292D;
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+    .mobile-button {
+        display: none;
+    }
+    .desktop-button {
+        display: block;
+        margin-left: 577px;
+        width: 247px;
+    }
+    .jobs__desktop {
+        margin-top: 110px;
+        margin-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desktop__container-details {
+        border: 1px solid rgba(43, 41, 45, 0.2);
+        border-radius: 8px;
+        width: 750px;
+        height: 81px;
+        margin-bottom: 20px;
+        display: flex;
+        &:hover {
+            background-color: #3141C5;
+            box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+            color: #FFFFFF;
+            cursor: pointer;
+            .desktop-title {
+                color: #FFFFFF;
+            }
+            .desktop-location {
+                color: #FFFFFF;
+                opacity: 100;
+            }
+            .desktop-arrow__image {
+                display: none;
+            }
+            .desktop-arrow__hover {
+                display: block;
+            }
+        }
+    }
+    .desktop-title {
+        margin: 26px 20px 26px 25px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        width: 408px;
+    }
+    .desktop-location {
+        margin: 28px 33px 27px 0px;
+        width: 232px;
+        font-size: 18px;
+        line-height: 24px;
+        mix-blend-mode: normal;
+        opacity: 0.6;
+    }
+    .desktop-arrow {
+        margin: 35px 24px 34px 0px;
+        position: relative;
+    }
+    .hower-arrow {
+        position: relative;
+    }
+    .desktop-arrow__hover {
+        position: absolute;
+        right: 0px;
+        top: 1px;
+        display: none;
+    }
+    .desktop-arrow__image {
+        display: block;
+    }
+}

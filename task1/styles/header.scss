@@ -36,54 +36,7 @@
     display: none;
 }
 
-@media screen and (min-width:1400px) {
-    .top-section {
-        background-color: #F3C6BD;
-        padding-top: 39px;
-    }
-    .navigation {
-        display: block;
-        margin-top: 7px;
-        margin-left: 335px;
-        margin-right: 75px;
-    }
-    .header {
-        width: 1140px;
-        height: 62px;
-        margin: auto;
-        display: flex;
-        background-color: #F3C6BD;
-    }
-    .header__button {
-        display: block;
-    }
-    .logo__description {
-        margin-left: 15px;
-        line-height: 25px;
-        font-size: 18px;
-        color: #2B292D;
-    }
-    .header__button {
-        display: block;
-    }
-    .logo__name {
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 25px;
-        color: #2B292D;
-    }
-    .logo__image {
-        margin-right: 15px;
-        width: 60px;
-        height: 60px;
-    }
-    .header__menu-button {
-        display: none;
-    }
-}
-
 .navigation__item {
-    color: #2B292D;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
@@ -121,7 +74,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 60px;
-    color: #2B292D;
 }
 
 .logo__description {
@@ -144,4 +96,52 @@
     border: none;
     border-radius: 2px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (min-width:1400px) {
+    .top-section {
+        background-color: #F3C6BD;
+        padding-top: 39px;
+    }
+    .navigation {
+        display: block;
+        margin-top: 7px;
+        margin-left: 335px;
+        margin-right: 75px;
+    }
+    .header {
+        width: 1140px;
+        height: 62px;
+        margin: auto;
+        display: flex;
+        background-color: #F3C6BD;
+    }
+    .header__button {
+        display: block;
+    }
+    .logo__text {
+        width: 222px;
+    }
+    .logo__description {
+        display: flex;
+        height: 25px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .header__button {
+        display: block;
+    }
+    .logo__name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .logo__image {
+        margin-right: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .header__menu-button {
+        display: none;
+    }
 }

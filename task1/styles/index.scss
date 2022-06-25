@@ -11,12 +11,15 @@
 @import 'communication.scss';
 @import 'audience.scss';
 @import 'feedback.scss';
+@import 'hiring.scss';
+@import 'order.scss';
 * {
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Work Sans';
+    color: #2B292D;
 }
 
 .page {
