@@ -1059,7 +1059,7 @@
 }
 @media screen and (min-width: 1400px) {
   .audience {
-    padding: 0px 15px 110px 15px;
+    padding: 0px 15px 95px 15px;
   }
 }
 .audience__top-column {
@@ -1134,7 +1134,7 @@
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 .user-card:hover {
   background-color: #3141C5;
@@ -1154,6 +1154,7 @@
     width: 262px;
     height: 300px;
     margin-left: 30px;
+    margin-top: 0px;
   }
 }
 .user-card__container {
@@ -1162,7 +1163,7 @@
 }
 @media screen and (min-width: 1400px) {
   .user-card__container {
-    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     padding: 111px 116px 0px 85px;
   }
