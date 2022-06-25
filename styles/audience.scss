@@ -92,6 +92,9 @@
         height: 300px;
         margin-left: 30px;
     }
+    @mixin for-large-down {
+        margin-bottom: 15px;
+    }
     &__container {
         margin-top: 40px;
         display: block;
