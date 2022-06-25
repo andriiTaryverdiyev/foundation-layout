@@ -1063,9 +1063,21 @@
   align-items: center;
 }
 
+@media screen and (min-width: 1400px) {
+  .audience-action-button {
+    width: 160px;
+  }
+}
+
 .audience-button {
   margin-top: 12px;
   padding: 0;
+}
+@media screen and (min-width: 1400px) {
+  .audience-button {
+    margin-top: 0px;
+    width: 158px;
+  }
 }
 
 .top-column__subtitle {
@@ -1088,6 +1100,9 @@
 @media screen and (min-width: 1400px) {
   .top-column__title {
     margin-top: 24px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
   }
 }
 
@@ -1204,7 +1219,7 @@
   }
   .audience__button-container {
     display: flex;
-    margin: 0px 536px;
+    margin: 0px 521px;
   }
   .headline__buttons-btn {
     padding: 0px;

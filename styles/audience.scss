@@ -10,9 +10,19 @@
     }
 }
 
+.audience-action-button {
+    @include for-large-up {
+        width: 160px;
+    }
+}
+
 .audience-button {
     margin-top: 12px;
     padding: 0;
+    @include for-large-up {
+        margin-top: 0px;
+        width: 158px;
+    }
 }
 
 .top-column__subtitle {
@@ -33,6 +43,9 @@
     letter-spacing: -0.357143px;
     @include for-large-up {
         margin-top: 24px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -135,7 +148,7 @@
     }
     .audience__button-container {
         display: flex;
-        margin: 0px 536px;
+        margin: 0px 521px;
     }
     .headline__buttons-btn {
         padding: 0px;
